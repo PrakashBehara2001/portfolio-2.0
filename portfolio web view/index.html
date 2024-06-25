@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VB Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">My portfolio</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Internships">Internships</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vedprakash Behara</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Internships" onclick="toggleMenu()">Internships</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container1">
+            <img src="./assests/CIRCLE PROFILE PIC.png" alt="VB profile picture" class="picture">
+          </div>
+        <div class="section__text">
+          <p class="section__text_p1">Hello I'm</p>
+          <h1 class="title">Vedprakash Behara</h1>
+          <p class="section__text_p2">Data Science Intern</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assests/Vedprakash_Behara_Resume.pdf')">
+              Download Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='.#contact'">
+              Contact Info 
+            </button>
+          </div>
+          <div id="socials-container">
+            <img src="./assests/linkedin.png" 
+            alt="My linkedin profile"
+            class="icon" 
+            onclick="location.href ='https://www.linkedin.com/in/vedprakash-behara/'">
+            <img src="./assests/github.png" 
+            alt="My github profile"
+            class="icon" 
+            onclick="location.href ='https://github.com/PrakashBehara2001'">
+          </div>
+        </div>
+      
+    </section>
+    <section id="about">
+      <p class="section__text_p1">Get to know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section_container">
+        <div class="section__pic-container1">
+          <img
+            src="./assests/valen bg.png"
+            alt="Profile picture"
+            class="about-pic"
+          >
+        
+        <div class="text-container">
+            <p class="summary">Passionate Data Science Intern adept in Python, SQL, and statistical modeling techniques. Experienced 
+              in data mining and machine learning, including clustering algorithms, to extract valuable insights 
+              from data. Innovative towards problem-solving and decision-making. Apart from technical skill set 
+              also excelled in verbal, written and presentation skills.</p>
+        </div>
+      </div>
+        
+          <div class="about-containers">
+
+            <div class="details-container">
+              <img src="./assests/experience.png" alt=" Experience icon" 
+              class="icon">
+              <h3 class="intern">Internships</h3>
+              <p class="info-1">6+ months as<br>Data Science Intern</p>
+              <div class="btn-container">
+                <button class="btn btn-detail-1" onclick="window.open('./assests/Data_science_certificates.pdf')">
+                  Get details
+                </button>
+              </div>
+            </div> 
+            <div class="details-container">
+              <img src="./assests/education.png" alt="Education icon" 
+              class="icon">
+              <h3 class="study">Education</h3>
+              <p class="info-2">Bachelor of technology in<br>Civil Engineering</p>
+              <div class="btn-container">
+                <button class="btn btn-detail-2" onclick="window.open('./assests/Btech_pc_memo.pdf')">
+                  Get details
+                </button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <img src="./assests/arrow.png" alt="Arrow icon" class="icon arrow" 
+      onclick="location.href='./#Internships'">
+    </section>
+  <section id="Internships">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Internships & Skills</h1>
+    <div class="internship-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="internship-sub-title">Code Clause & Campus grow</h2>
+          <div class="article-container">
+           <div class="tick">
+            <img
+            src="./assests/checkmark.png"
+            alt="Internship icon"
+            class="icon"
+          />
+            <h3 class="skill">Pandas and  numpy</h3>
+            <div>
+            <p class="sub"> (Intermediate)</p>
+          </div>
+        </div>
+        <div class="tick">
+              <img
+                src="./assests/checkmark.png"
+                alt="Internship icon"
+                class="icon"
+              />
+                <h3 class="skill">Python</h3>
+                <div>
+                <p class="sub">(Intermediate)</p>
+              </div>
+            </div>
+        
+            <div class="tick"> 
+              <img
+                src="./assests/checkmark.png"
+                alt="Internship icon"
+                class="icon"
+              />
+              
+                <h3 class="skill">Data Analysis</h3>
+                <div>
+                <p class="sub"> (Intermediate)</p>
+              </div>
+            </div>
+            <div class="tick">
+              <img
+              src="./assests/checkmark.png"
+              alt="Internship icon"
+              class="icon"
+            />
+            
+              <h3 class="skill">Power BI</h3>
+              <div>
+              <p class="sub">Intermediate</p>
+            </div>
+          </div>
+             <div class="tick">
+              <img
+                src="./assests/checkmark.png"
+                alt="Internship icon"
+                class="icon"
+              />
+              
+                <h3 class="skill">Machine Learning</h3>
+                <div>
+                <p class="sub"> (Basic)</p>
+              </div>
+              </div>
+          
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="internship-sub-title">Other skills</h2>
+          <div class="article-container">
+            <div class="tick">
+              <img
+                src="./assests/checkmark.png"
+                alt="Internship icon"
+                class="icon"
+              />
+              
+                <h3 class="skill">MS Excel</h3>
+                <div>
+                <p class="sub"> (Intermediate)</p>
+              </div>
+            </div>
+            <div class="tick">
+              <img
+              src="./assests/checkmark.png"
+              alt="Internship icon"
+              class="icon"
+            />
+              <h3 class="skill">MS Powerpoint</h3>
+              <div>
+              <p class="sub">(Intermediate)</p>
+            </div>
+          </div>
+            <div class="tick">
+            <img
+            src="./assests/checkmark.png"
+            alt="Internship icon"
+            class="icon"
+          />
+            <h3 class="skill">Graphic designing</h3>
+            <div>
+            <p class="sub">(Basic)</p>
+          </div>
+        </div>
+          <div class="tick">
+              <img
+                src="./assests/checkmark.png"
+                alt="Internship icon"
+                class="icon"
+              />
+              
+                <h3 class="skill">SQL</h3>
+                <div>
+                <p class="sub"> (Intermediate)</p>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assests/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="internship-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests/k means.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="internship-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/PrakashBehara2001/CodeClauseInternship_CustomerSegmentation'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests/loan prediction.jpeg"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="internship-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/PrakashBehara2001/Data-Science'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assests/data analysis.jpeg"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="internship-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/PrakashBehara2001/Data-Analysis'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assests/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assests/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:beharaprakash2001@gmail.com">beharaprakash2001@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assests/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/vedprakash-behara/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assests/dialer.png"
+          alt="Contact Icon"
+          class="icon contact-icon"
+        />
+        <p><a >+91 9392123534</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Internships">Internships</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Vedprakash Behara. All Rights Reserved.</p>
+  </footer>
+    <script src="script.js"></script>  
+</body>
+</html>
